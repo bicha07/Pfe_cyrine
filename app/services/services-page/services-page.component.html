@@ -1,0 +1,43 @@
+<div
+	id="services"
+	class="scrollto clearfix"
+	*ngIf="services$ | async as services">
+	<div class="row no-padding-bottom clearfix">
+		<!--Content Left Side-->
+		<div class="col-3">
+			<!--User Testimonial-->
+			<blockquote class="testimonial text-right bigtest">
+				<q
+					>"La santé de notre terre et de nos communautés dépend de la pureté de nos récoltes. Protéger les produits agricoles, c'est préserver notre avenir."</q
+				>
+				<footer>— John Doe, Happy Customer</footer>
+			</blockquote>
+			<!-- End of Testimonial-->
+		</div>
+		<!--End Content Left Side-->
+
+		<!--Content of the Right Side-->
+		<div class="col-3">
+			<div class="section-heading">
+				<h3>{{ services.tagline }}</h3>
+				<h2 class="section-title">{{ services.title }}</h2>
+			</div>
+			<p>
+				Dans un monde où la qualité alimentaire ne cesse de gagner en importance, notre agence se dédie à la protection de la chaîne alimentaire. Avec une vigilance constante et des méthodes de contrôle avancées, nous nous assurons que seuls les produits agricoles les plus sûrs atteignent votre table. Engagés envers l'excellence et guidés par l'intégrité, nous plaçons la santé publique et la durabilité au cœur de nos actions.
+			</p>
+			<!-- Just replace the Video ID "UYJ5IjBRlW8" with the ID of your video on YouTube (Found within the URL) -->
+			<a
+				href="#"
+				data-videoid="UYJ5IjBRlW8"
+				data-videosite="youtube"
+				class="button video link-lightbox">
+				VOIR PLUS <i class="fa fa-play" aria-hidden="true"></i>
+			</a>
+		</div>
+		<!--End Content Right Side-->
+
+		<div class="col-3">
+			<img src="assets/images/ba1.png" alt="Dancer" />
+		</div>
+	</div>
+</div>
